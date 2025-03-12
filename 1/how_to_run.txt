@@ -1,0 +1,9 @@
+for 1b - 
+flex filename.l   # Generates lex.yy.c
+gcc lex.yy.c -o lexer -lfl   # Compile the generated C file
+./lexer   # Run the lexer
+
+
+for 1a -
+gcc filename.c -o filename
+./filename
