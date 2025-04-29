@@ -1,9 +1,0 @@
-bison -d exp3bison.y
-
-flex exp3.l
-
-
-gcc -o calc exp3bison.tab.c lex.yy.c -lfl
-
-
-./calc

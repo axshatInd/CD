@@ -1,0 +1,10 @@
+go to terminal,
+in this folder directory,
+
+then run-
+g++ 9.cpp -o parser
+Press Enter
+then run-
+./parser
+
+Sample input - a+b*c

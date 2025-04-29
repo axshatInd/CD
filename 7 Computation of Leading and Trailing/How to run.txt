@@ -1,0 +1,67 @@
+go to terminal,
+in this folder directory,
+
+then run-
+g++ 7.cpp -o parser
+Press Enter
+then run-
+./parser
+
+[[[[[[[[]]]]]]]]
+
+Sample Input:
+
+Enter the number of productions: 3
+Enter the productions one by one (e.g., A->BC):
+S->aA
+A->b
+A->c
+
+
+{ Grammar Explanation:
+S -> aA
+A -> b | c
+}
+
+Expected Output:
+Leading[S]	{a,}
+Leading[A]	{b,c,}
+Trailing[S]	{b,c,}
+Trailing[A]	{b,c,}
+
+[[[[[[[[[]]]]]]]]]
+
+If teacher wants longer productions
+use this-
+
+[[[[[[[[[[]]]]]]]]]]
+
+Sample Input:
+
+Enter the number of productions: 8
+Enter the productions one by one (e.g., A->BC):
+
+You can enter these:
+
+E->TA
+A->+TA
+A->e
+T->FB
+B->*FB
+B->e
+F->(E)
+F->i
+
+Sample Output:
+Leading[E]   {(,i,}
+Leading[A]   {+,}
+Leading[T]   {(,i,}
+Leading[B]   {*,}
+Leading[F]   {(,i,}
+Trailing[E]  {),i,}
+Trailing[A]  {),i,}
+Trailing[T]  {),i,}
+Trailing[B]  {),i,}
+Trailing[F]  {),i,}
+
+[[[[[[[[[[[[[]]]]]]]]]]]]]

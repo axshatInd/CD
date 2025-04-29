@@ -1,0 +1,11 @@
+go to terminal,
+in this folder directory,
+
+then run-
+g++ 10.cpp -o parser
+Press Enter
+then run-
+./parser
+
+Sample Input (space sensitive) -
+a + b * c

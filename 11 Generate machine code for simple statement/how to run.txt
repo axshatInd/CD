@@ -1,0 +1,11 @@
+go to terminal,
+in this folder directory,
+
+then run-
+g++ 11.cpp -o parser
+Press Enter
+then run-
+./parser
+
+
+No input direct answer

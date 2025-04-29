@@ -1,0 +1,15 @@
+go to terminal,
+in this folder directory,
+
+then run-
+g++ 6.cpp -o parser
+Press Enter
+then run-
+./parser
+
+use input examples as the one given example already, i.e, id+id*id,
+or,
+More examples -
+id+id
+or
+(id)+(id*id)

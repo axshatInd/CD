@@ -1,0 +1,21 @@
+go to terminal,
+in this folder directory,
+
+then run-
+g++ 8.cpp -o parser
+Press Enter
+then run-
+./parser
+
+
+Sample InPUT -
+Augmented Grammar
+-----------------
+E
+E->E+T
+E->T
+T->T*F
+T->F
+F->(E)
+F->i (press Enter here)
+(then again Enter)
