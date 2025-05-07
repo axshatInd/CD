@@ -13,3 +13,25 @@ More examples -
 id+id
 or
 (id)+(id*id)
+
+
+for 6_new_use_this.cpp
+: Inputs have to be changed at the last of the code itself,
+replace this line:
+
+vector<string> input = {"i", "*", "i", "+", "i"};
+
+with new examples like:
+(valid ones)
+vector<string> input = {"i", "+", "i"};
+or
+vector<string> input = {"i", "*", "i", "+", "i"};
+or
+vector<string> input = {"(", "i", "+", "i", ")", "*", "i"};
+or
+
+(invalid ones)
+vector<string> input = {"i", "+", "+", "i"};
+or
+vector<string> input = {"i", "*", "(", "i", "+", ")"};
+
